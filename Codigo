@@ -1,0 +1,90 @@
+Codigo de Hoja de vida:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .centrado {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Hoja de Vida</h1>
+        <h2>Datos Personales</h2>
+        <img src=C:\Users\Josue\OneDrive\Imágenes\Knave.jpg>
+        <p>Nombres: Josue Jair</p>
+        <p>Apellidos: Sosa Vilela</p>
+        <p>Fecha de Nacimiento: 13 de enero del 2003</p>
+        <p>Email: e1313945832@live.uleam.edu.ec</p>
+
+        <h2>Estudios Realizados</h2>
+        <p>Estudié en la Unidad educativa salesiana San Jose.
+           <br>Actualmente estudio en la Universidad Laica 
+        </p>
+
+        <h2>Experiencia Laboral</h2>
+        <p>Experiencia trabajando en un local de abastecimiento de alimentos(Una Tienda)</p>
+
+        <h2>Capacitaciones</h2>
+        <p>Ninguna capacitación de ningun tipo.</p>
+
+        <h2>Referencias Personales</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Cargo/Profesión</th>
+                <th>Teléfono</th>
+                <th>Correo Electrónico</th>
+            </tr>
+            <tr>
+                <td>Juan Pérez</td>
+                <td>Ingeniero de Software</td>
+                <td>555-1234</td>
+                <td>juanperez@gamil.com</td>
+            </tr>
+            <tr>
+                <td>María Rodríguez</td>
+                <td>Médico</td>
+                <td>555-5678</td>
+                <td>mrodriguez@outlook.com</td>
+            </tr>
+            <tr>
+                <td>Carlos López</td>
+                <td>Abogado</td>
+                <td>555-9012</td>
+                <td>clopez@hotmail.com</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
